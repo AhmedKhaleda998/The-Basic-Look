@@ -1,0 +1,500 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #fefefe;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #272728;
+  color: white;
+}
+
+
+.icon {
+float: right;
+width: 30px;
+height: 30px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+background-color: rgb(255, 255, 255);
+font-family: 'Open Sans', sans-serif;
+}
+
+
+.searchTerm {
+width: 250px;
+border: 3px solid #000000;
+border-right: none;
+padding: 5px;
+height: 47px;
+border-radius: 5px 0 0 5px;
+float: right;
+color: #00f985;
+}
+
+.searchTerm:focus{
+color: #000000;
+}
+
+
+.button-5 {
+float: right;
+align-items: center;
+background-clip: padding-box;
+background-color: #1d1d1d;
+border: 1px solid transparent;
+border-radius: .25rem;
+box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+box-sizing: border-box;
+color: #fff;
+cursor: pointer;
+display: inline-flex;
+font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 16px;
+font-weight: 600;
+justify-content: center;
+line-height: 1.25;
+margin: 0;
+min-height: 3rem;
+padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+position: relative;
+text-decoration: none;
+transition: all 250ms;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+vertical-align: baseline;
+width: auto;
+height: auto;
+}
+
+.button-6 {
+
+float: none;
+align-items: center;
+background-clip: padding-box;
+background-color: transparent;
+border: 3px solid black;
+border-radius: .25rem;
+box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+box-sizing: border-box;
+color: #000000;
+text-decoration: double;
+text-size-adjust: 10px;
+cursor: pointer;
+display: inline-flex;
+font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 16px;
+font-weight: 600;
+justify-content: center;
+line-height: 1.25;
+margin: 0;
+min-height: 3rem;
+padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+position: relative;
+text-decoration: none;
+transition: all 250ms;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+vertical-align: baseline;
+width: 167px;
+height: auto;
+}
+
+.button-6:hover {
+background-color: rgb(0, 0, 0);
+color: #ffffff;
+}
+
+.collection-img{
+height: fit-content;
+width: 55px;
+display: inline-flex;
+
+}
+.box{
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid #ffffff;
+height: 500px;
+width: 80%;
+margin: 10%;
+padding: 50px;
+
+}
+.men{
+background-image: url('./data/men1.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.women{
+background-image: url('./data/women1.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.form-box{  
+background-color: #ffffff;
+border: 1px solid #040404;
+margin: 10px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+height: 60px;
+width: 500px;
+
+}
+.phone-form-box{  
+background-color: #ffffff;
+border: 1px solid #040404;
+margin: 10px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+height: 60px;
+width: 1046px;
+
+}
+textarea.form-control {
+font-size: 20px;
+border-color: #333;
+border-radius: 0.3rem;
+line-height: 1.8;
+height: 300px;
+background-color: white; 
+
+}
+.send-butt{
+color: #ffffff;
+background-color: #272727;
+align-items: center;
+background-clip: padding-box;
+background-color: #1d1d1d;
+border: 1px solid transparent;
+border-radius: .25rem;
+box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+box-sizing: border-box;
+color: #fff;
+cursor: pointer;
+display: inline-flex;
+font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 16px;
+font-weight: 600;
+justify-content: center;
+line-height: 1.25;
+
+min-height: 3rem;
+padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+position: relative;
+text-decoration: none;
+transition: all 250ms;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+vertical-align: baseline;
+width: 100px;
+height: auto;
+}
+.box2{
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid #ffffff;
+height: 400px;
+width: 300px;
+margin: 50px;
+}
+
+.ca {
+color: #000000;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ca:hover{
+color: #787878;
+}
+
+
+
+h1{
+padding: 20px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+header>h4{
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.prod-box{
+
+max-height: 600px;
+max-width: 400px;
+border: 1px solid black;
+}
+
+.bigbox{
+border: 1px solid #ffffff;
+display: flex;
+justify-content: space-around;
+align-items: stretch;
+}
+.sign-butt{
+color: #ffffff;
+background-color: #272727;
+align-items: center;
+background-clip: padding-box;
+background-color: #1d1d1d;
+border: 1px solid transparent;
+border-radius: .25rem;
+box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+box-sizing: border-box;
+color: #fff;
+cursor: pointer;
+display: inline-flex;
+font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 16px;
+font-weight: 600;
+justify-content: center;
+line-height: 1.25;
+
+min-height: 3rem;
+padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+position: relative;
+text-decoration: none;
+transition: all 250ms;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+vertical-align: baseline;
+
+height: auto;
+}
+.reg{
+
+text-decoration: none;
+color: #000000;
+}
+.regster-box{
+background-color: #ffffff;
+border: 1px solid #040404;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+height: 60px;
+width: 300px;
+}
+
+.create-butt{
+color: #ffffff;
+background-color: #272727;
+align-items: center;
+background-clip: padding-box;
+background-color: #1d1d1d;
+border: 1px solid transparent;
+border-radius: .25rem;
+box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+box-sizing: border-box;
+color: #fff;
+cursor: pointer;
+display: inline-flex;
+font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 16px;
+font-weight: 600;
+justify-content: center;
+line-height: 1.25;
+min-height: 3rem;
+position: relative;
+text-decoration: none;
+transition: all 250ms;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+vertical-align: baseline;
+width: 150px;
+height: auto;
+}
+.submit-butt{
+color: #ffffff;
+background-color: #272727;
+align-items: center;
+background-clip: padding-box;
+background-color: #1d1d1d;
+border: 1px solid transparent;
+border-radius: .25rem;
+box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+box-sizing: border-box;
+color: #fff;
+cursor: pointer;
+display: inline-flex;
+font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 16px;
+font-weight: 600;
+justify-content: center;
+line-height: 1.25;
+margin-top: 10px;
+min-height: 3rem;
+padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+position: relative;
+text-decoration: none;
+transition: all 250ms;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+vertical-align: baseline;
+width: 100px;
+height: auto;
+}
+
+.foot-icon{
+width: 30px;
+height: 30px;
+}
+.free-delivry{
+width: auto;
+height: 45px;
+}
+.newsletter{
+width: auto;
+height: 250px;
+
+}
+.circle-icon {
+width: 30px;
+height: 30px;
+border-radius: 50%;
+background-size: cover;
+background-position: center;
+}
+header>h2{
+     padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+
+.vertical-line {
+border-left: 1px solid rgb(255, 255, 255);
+height: 100px; 
+}
+
+.circle-icon2 {
+width: 70px;
+height: 70px;
+border-radius: 50%;
+background-size: cover;
+background-position: center;
+margin:  10px;
+}
+.size-box{
+height: fit-content;
+width: fit-content;
+border: 1px solid black;
+border-radius: .25rem;
+background-color: transparent;
+padding: 5px;
+padding-left: 7px;
+padding-right: 7px;
+margin: 5px;
+}
+
+button:active{
+background-color: rgb(114, 114, 114);
+}
+.red{
+color: #00f985;
+}
+.man{
+  height: 70%;
+  width: 60%;
+}
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #FFF;
+  border-bottom-color: #FF3D00;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+  }
+
+  @keyframes rotation {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+  } 

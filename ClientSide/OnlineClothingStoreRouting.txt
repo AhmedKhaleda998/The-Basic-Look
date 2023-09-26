@@ -1,0 +1,45 @@
+products:
+
+GET 'products/'  --> view all products (any) (DONE)
+GET 'products/ID'  --> view product by id (any) (DONE)
+
+POST'products/'  --> Add new product (admin) (name, price, size, description, gender, collectionSeason, image:file) 
+PUT 'products/ID'  --> update product by id (admin) (name, price, size, description, gender, collectionSeason, image:file) (DONE)
+DELETE 'products/ID'  --> delete product by id (admin) (DONE)
+
+GET 'products/collections/KEYWORD'  --> view product by collection (any) (DONE)
+GET 'products/collections/'  --> view product by id (any) (DONE)
+GET 'products/search/KEYWORD'  --> search products (any) (DONE)
+
+
+auth:
+
+POST 'auth/login'  --> login (any) (DONE)
+POST 'auth/register'  --> register (any) (DONE)
+
+
+contact:
+
+POST 'contact/'  --> contact (customer) (name, email, phone, message) (DONE)
+
+cart:
+
+GET 'cart/'  --> get user cart (customer) (DONE)
+POST 'cart/PRODUCTID'  --> add the product of this id to cart (customer) (size, quantity:optional) (DONE)
+PUT 'cart/PRODUCTID'  --> update the quantity of this product in cart if present (customer) (size, quantity) (DONE) 
+DELETE 'cart/PRODUCTID'  --> delete this product in cart if present (customer) (size) (DONE)
+
+
+order:
+
+GET 'orders/all'  --> get all products for admin (admin)                   
+GET 'orders/'  --> get the orders for the customer (customer) (DONE)
+POST 'orders/'  --> create a new order for customer (customer) (addressId) /////////////////////////
+
+address:
+
+GET 'adderss/'  --> get all customer addresses (customer)   
+GET 'adderss/ADDRESSID'  --> get specific customer addresses with the address id (customer)     
+POST 'adderss/'  --> create a new address for customer (customer) (addressLine, country, city, state, postalCode, phone)    
+PUT 'adderss/ADDRESSID'  --> update a specific address for the customer (customer) (addressLine, country, city, state, postalCode, phone)   
+DELETE 'adderss/ADDRESSID'  --> delete a specific address for the customer (customer)                   
